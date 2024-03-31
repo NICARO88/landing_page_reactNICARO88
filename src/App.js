@@ -1,5 +1,5 @@
 import './App.css';
-import Article from "./componentes/Article";
+import Jumbotron from "./componentes/Jumbotron";
 import Navbar from './componentes/Navbar';
 import Cards from './componentes/Cards';
 import Footer from './componentes/Footer';
@@ -11,7 +11,7 @@ function App() {
     <div>
     <Navbar />
     <div className = "container">
-    <Article />
+    <Jumbotron />
       <div className = "row">
         <div className = "col-6">
           <Cards colortype = "card text-bg-primary mb-3" header = "Card 1" title = "Card 1" text = "This is card 1"/> 
