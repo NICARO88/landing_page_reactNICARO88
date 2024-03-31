@@ -1,5 +1,5 @@
 function Footer() { 
-    return <div className = "footer">
+    return <div className="container-fluid footer">
         <p>Copyright © Your Website 2024</p>   
     </div>
 };

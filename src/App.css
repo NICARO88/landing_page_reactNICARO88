@@ -9,9 +9,27 @@
   padding: 30px;
 }
 
-.cards{
-  margin-bottom: 0px;
+.card {
+  padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
 }
-.cardtwo {
-  
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card h2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  margin-bottom: 0.5rem;
+}
+
+.jumbotron-light-grey {
+  background-color: #f0f0f0;
+  padding: 20px 30px 60px;
 }
